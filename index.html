@@ -3,14 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <div>
-        First DIV
-    </div>
+ 
+    <div class="userCardContainer">
+        <div class="userPic">
+            <img src="./images/userpic.png" alt="userpic">
+        </div>
+        <div class="close">
+            <img src="./images/cross.png" alt="close">
+        </div>
+        <h1>User Login</h1>
+        
+        <form>
+            <label for="mail"></label>
+            <input type="email" id="mail" placeholder="Enter email">
+            
+            <label for="password"></label>
+            <input type="password" id="password" placeholder="Password">
 
-    <div>
-        Second DIV
+            <input type="button" value="Login" class="greenButton">
+        </form>
+
+        <div class="bottom">
+            <a href="#">Forgot Password?</a>
+        </div>
+
     </div>
 
 
